@@ -25,4 +25,9 @@ $(document).ready(function() {
     $('.font_resize').removeClass('font_large').removeClass('font_medium');
   });
 
+  //uikit 2 - searchBar sticky under #header
+  $("#searchBar").on('active.uk.sticky', function() {
+    $(this).css("top", $("#header").height());
+  });
+
 });
