@@ -227,6 +227,9 @@ img[src=""] {display: none;}
 .searchBarGroup3>div:nth-child(2)>* {
     border-radius: 0;
 }
+.searchBarGroup3>div>* {border-radius: 0 !important;}
+.searchBarGroup3 svg {display: none;}
+
 .gotoTop {
     opacity: 0;
     width: 40px !important;
