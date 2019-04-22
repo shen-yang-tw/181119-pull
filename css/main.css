@@ -243,7 +243,7 @@ ol.listDecimalRow>li:before {display: block; counter-increment: listDecimalRowCo
 ol.listDecimalRow.listBadge>li {position: relative; padding-top: 45px;}
 ol.listDecimalRow.listBadge.listBadgeR>li {padding-top: 10px;}
 ol.listDecimalRow.listBadge.listBadgeDivder>li {padding-top: 65px;}
-ol.listDecimalRow.listBadge>li:before {display: inline-block; counter-increment: listDecimalRowCounter; content: counter(listDecimalRowCounter); padding: 0 7px; position: absolute; z-index: 1; top:10px; left: 10px; background: lightgrey; color: white; border-radius: 4px;}
+ol.listDecimalRow.listBadge>li:before {display: inline-block; counter-increment: listDecimalRowCounter; content: counter(listDecimalRowCounter); padding: 0 7px; position: absolute; top:10px; left: 10px; background: lightgrey; color: white; border-radius: 4px;}
 ol.listDecimalRow.listBadge.listBadgeDivder>li:after {display: block; content: ""; margin: 0 10px; position: absolute; top:50px; left:0; right:0; height:1px; background:#e5e5e5;}
 ol.listDecimalRow.listBadge.listBadgeMarginS>li {position: relative; padding-top: 0;}
 ol.listDecimalRow.listBadge.listBadgeMarginS>li:before {top:5px; left: 5px;}

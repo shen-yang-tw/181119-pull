@@ -87,7 +87,6 @@
                 <li><a href="#" title="#">書目管理者軟體</a></li>
                 <li><a href="#" title="#">我的資源</a></li>
                 <li class="uk-nav-divider"></li>
-                <li><a href="#" title="#">電子書</a></li>
                 <li><a href="#" title="#">圖書館</a></li>
                 <li><a href="#" title="#">最新消息</a></li>
                 <li><a href="#" title="#">常見問題</a></li>
@@ -143,24 +142,8 @@
         <div class="searchBar box_shadow3 padding_large uk-width-large-1-2 uk-container uk-container-center uk-position-relative">
           <div class="bg_white opacity90 uk-border-rounded uk-overlay-panel"></div>
           <form class="uk-form uk-position-relative">
-            <div class="uk-hidden-large">
-              <div class="searchBarGroup3 uk-grid uk-grid-collapse" data-uk-grid-margin>
-                <div class="uk-width-3-10 uk-width-small-3-10">
-                  <select class="bg_whiteOpacity9 border_black_opacity1 uk-form-large uk-width-1-1" aria-labelledby="search">
-                    <option>全部</option>
-                  </select>
-                </div>
-                <div class="uk-width-4-10 uk-width-small-5-10">
-                  <input id="search_s" class="bg_whiteOpacity9 border_black_opacity1 uk-form-large uk-width-1-1" type="text" placeholder="請輸入內容">
-                </div>
-                <div class="uk-width-3-10 uk-width-small-2-10">
-                  <a href="#" class="btn_primary uk-button uk-button-large uk-width-1-1" title="Search" aria-label="submnit" aria-labelledby="search_s"><i class="fas fa-search uk-margin-small-right"></i>搜尋</a>
-                </div>
-              </div>
-              <p class="uk-form-help-block uk-clearfix">熱門：<span><span class="commaCH"><a class="linkline" href="#" title="#">science</a></span><span class="commaCH"><a class="linkline" href="#" title="#">華藝</a></span><span class="commaCH"><a class="linkline" href="#" title="#">nature</a></span></span><a class="uk-float-right" href="#">進階查詢</a></p>
-            </div>
-            <div class="tabBar_switcher uk-visible-large">
-              <ul class="uk-subnav uk-subnav-pill" data-uk-switcher="{connect:'#switcher'}">
+            <div class="tabBar_switcher">
+              <ul class="tab_primary uk-tab" data-uk-switcher="{connect:'#switcher'}">
                 <li>
                   <a href="#">資源探索</a>
                 </li>
@@ -172,39 +155,39 @@
                 <ul id="switcher" class="uk-switcher uk-margin">
                   <li>
                     <div class="searchBarGroup3 uk-grid uk-grid-collapse" data-uk-grid-margin>
-                      <div class="uk-width-3-10 uk-width-small-3-10">
+                      <div class="uk-width-large-3-10 uk-visible-large">
                         <select class="bg_whiteOpacity9 border_black_opacity1 uk-form-large uk-width-1-1" aria-labelledby="search1">
                           <option>全部</option>
                         </select>
                       </div>
-                      <div class="uk-width-4-10 uk-width-small-5-10">
+                      <div class="uk-width-3-4 uk-width-large-5-10">
                         <input id="search1" class="bg_whiteOpacity9 border_black_opacity1 uk-form-large uk-width-1-1" type="text" placeholder="請輸入內容">
                       </div>
-                      <div class="uk-width-3-10 uk-width-small-2-10">
+                      <div class="uk-width-1-4 uk-width-large-2-10">
                         <a href="#" class="btn_primary uk-button uk-button-large uk-width-1-1" title="Search" aria-label="submnit" aria-labelledby="search"><i class="fas fa-search uk-margin-small-right"></i>搜尋</a>
                       </div>
                     </div>
-                    <p class="uk-form-help-block">熱門：<span class="commaCH"><a class="linkline" href="#" title="#">science</a></span><span class="commaCH"><a class="linkline" href="#" title="#">華藝</a></span><span class="commaCH"><a class="linkline" href="#" title="#">nature</a></span></p>
+                    <p class="uk-form-help-block"><a class="uk-align-right" href="#">進階查詢</a>熱門：<span class="commaCH"><a class="linkline" href="#" title="#">science</a></span><span class="commaCH"><a class="linkline" href="#" title="#">華藝</a></span><span class="commaCH"><a class="linkline" href="#" title="#">nature</a></span></p>
                   </li>
                   <li>
                     <div class="searchBarGroup3 uk-grid uk-grid-collapse" data-uk-grid-margin>
-                      <div class="uk-width-3-10 uk-width-small-3-10">
+                      <div class="uk-width-large-3-10 uk-visible-large">
                         <select class="bg_whiteOpacity7 border_black_opacity1 uk-form-large uk-width-1-1" aria-labelledby="search2">
                           <option>全部</option>
                         </select>
                       </div>
-                      <div class="uk-width-4-10 uk-width-small-5-10">
+                      <div class="uk-width-4-5 uk-width-large-5-10">
                         <input id="search2" class="bg_whiteOpacity7 border_black_opacity1 uk-form-large uk-width-1-1" type="text" placeholder="請輸入內容">
                       </div>
-                      <div class="uk-width-3-10 uk-width-small-2-10">
+                      <div class="uk-width-1-5 uk-width-large-2-10">
                         <a href="#" class="btn_primary uk-button uk-button-large uk-width-1-1" title="Search" aria-label="submnit" aria-labelledby="search"><i class="fas fa-search uk-margin-small-right"></i>搜尋</a>
                       </div>
                     </div>
-                    <p class="uk-form-help-block">熱門：<span class="commaCH"><a class="linkline" href="#" title="#">生物</a></span><span class="commaCH"><a class="linkline" href="#" title="#">月旦</a></span><span class="commaCH"><a class="linkline" href="#" title="#">中國</a></span></p>
+                    <p class="uk-form-help-block uk-clearfix"><a class="uk-align-right" href="#">進階查詢</a>熱門：<span class="commaCH"><a class="linkline" href="#" title="#">生物</a></span><span class="commaCH"><a class="linkline" href="#" title="#">月旦</a></span><span class="commaCH"><a class="linkline" href="#" title="#">中國</a></span></p>
                   </li>
                 </ul>
               </div>
-              <a class="uk-position-bottom-right" href="#">進階查詢</a>
+              <!-- <a class="uk-position-bottom-right" href="#">進階查詢</a> -->
             </div>
             <!-- .tabBar_switcher -->
           </form>
