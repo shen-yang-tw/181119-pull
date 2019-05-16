@@ -684,7 +684,6 @@ input:not([type]).uk-form-large, input[type].uk-form-large, select.uk-form-large
     border-bottom: 0;
 }
 .banner.uk-position-z-index, .uk-offcanvas, .uk-dropdown.uk-position-z-index {z-index: 1035;}
-
 /* End Uikit Style
 ---------------------------------------------------- */
 .container_responsive {padding: 0;}
@@ -853,7 +852,7 @@ textarea {min-height: 100px;}
 .truncating {
   overflow: hidden;
   position: relative;
-  height: 8rem;
+  max-height: 8rem;
   /* exactly three lines */
 }
 .truncating:after {
@@ -876,14 +875,14 @@ textarea {min-height: 100px;}
     right: 10px;
 }
 .truncating2 {
-  height: 3rem;
+  max-height: 3rem;
   /* exactly 2 lines */
 }
 .truncating2:after, .truncating4:after {
   bottom: 0.1rem;
 }
 .truncating4 {
-  height: 6rem;
+  max-height: 6rem;
   /* exactly 4 lines */
 }
 .truncating_striped>li:nth-of-type(odd) .truncating:after {
