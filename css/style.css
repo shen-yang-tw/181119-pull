@@ -252,8 +252,6 @@ footer, footer a {color: white !important;}
   top: 0 !important;
   left: calc(50% - 930px/2);
   max-width: 930px !important;
-  /* left: 25px;
-  width: calc(100% - 25px * 2) !important; */
 }
 .bg_img .uk-width-medium-1-2:nth-child(1) {width: calc(100% - 532px) !important;}
 .bg_img .uk-width-medium-1-2:nth-child(2) {width: 532px;}
